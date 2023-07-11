@@ -1,0 +1,67 @@
+<html>
+    <style>
+        .tab{
+  margin-left: auto; 
+  margin-right: auto;  
+}
+table{
+    font-size: larger;
+    border: 2px solid;
+    background-color: aliceblue;
+    color: black;
+}
+#bk{
+    
+    background-image:  url("im4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sen{
+  text-align: center;
+  font-size: xxx-large;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.home{
+  color: white;
+  background: #9193d2;
+  width: 100px;
+  border: 1px solid #fff;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  position: relative;
+  font-family: poppins;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+    </style>
+    <body id="bk" style="color: aliceblue;">
+        <p class="home"><a style="text-decoration-color: #fff;" href="home.php">Home</a></p>
+        <br><br>
+        <p id="sen">match update</p>
+        <br><br>
+        <form action="matup.php" method="post">
+        </table>
+        <br>
+        <table class="tab" style="padding: 0px;">
+        <tr>  
+        <td>player1: </td><td><input type="text" id="p1" name="p1"><br></td>
+        <td>player2: </td><td><input type="text" id="p2" name="p2"><br></td>
+        </tr>
+        <br>
+        <tr>  
+            <td>opponent1: </td><td><input type="text" id="o1" name="o1"><br></td>
+            <td>opponent2: </td><td><input type="text" id="o2" name="o2"><br></td>
+        </tr>
+        <tr>  
+            <td>score: </td><td><input type="text" id="sc" name="sc"><br></td>
+            <td>date: </td><td><input type="date" id="dt" name="dt"><br></td>
+        </tr><br>
+        <tr><td colspan="2"><input type="submit"></td></tr>
+      </table>
+      </form>
+    </body>
+</html>
